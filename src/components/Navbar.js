@@ -1,7 +1,7 @@
 import React from 'react'
-import linkedinIcon from '../assets/linkedinlinkedinIcon.svg'
+// import linkedinIcon from '../components/assets/linkedinlinkedinIcon.svg'
 
-const IfiNavbar = () => {
+const Navbar = () => {
   return (
     <>
         <h1>I.f.I</h1>
@@ -10,4 +10,4 @@ const IfiNavbar = () => {
   )
 }
 
-export default IfiNavbar
+export default Navbar

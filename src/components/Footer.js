@@ -1,6 +1,6 @@
 import React from 'react'
 
-const IfiFooter = () => {
+const Footer = () => {
   return (
     <>
         <h1>footer</h1>
@@ -8,4 +8,4 @@ const IfiFooter = () => {
   )
 }
 
-export default IfiFooter
+export default Footer
