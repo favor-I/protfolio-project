@@ -1,0 +1,32 @@
+.Services-page {
+    padding: 5em;
+    background: rgba(251, 252, 254, 1);    ;
+}
+.Services-page-p {
+    width: 25em;
+}
+.service-rendered-items-container {
+    /* border: 1px solid red; */
+    /* padding: 2em; */
+    display: grid;
+    grid-gap: 2em 1.5em;
+    grid-template-columns: repeat(3, auto);
+}
+.Services-rendered-items {
+    /* border: 1px solid red; */
+    height: 12em;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.Services-rendered-items img{
+    width: 3em;
+    height: 3em;
+    padding:.5em 0em;
+}
+.Services-rendered-items h4{
+    font-size: 18px;
+}
+.Services-rendered-items p{
+    font-size: 14px;
+}
