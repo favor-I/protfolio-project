@@ -6,6 +6,7 @@ import ContactMe from './ContactMe'
 import Projects from './Projects'
 import Services from './Services'
 import { useRef } from 'react'
+// import Button from '../Button/Button'
 
 
 const Home = () => {
@@ -39,6 +40,7 @@ const Home = () => {
             <div ref={servicesRef}> <Services /> </div>
             <div ref={projectRef}> <Projects /> </div>
             <div ref={contactMeRef}> <ContactMe /> </div>
+            {/* <Button newClassName = {'newColor'}/> */}
         </div>
     <Footer />
     </>

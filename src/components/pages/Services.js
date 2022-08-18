@@ -1,4 +1,5 @@
 import React from 'react'
+import '../assets/css/services.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Training from '../assets/Services/Training.svg'
 import ITConsultant from '../assets/Services/ITConsultant.svg'
@@ -7,7 +8,6 @@ import DatabaseDev from '../assets/Services/DatabaseDev.svg'
 import CustomerSDev from '../assets/Services/CustomerSDev.svg'
 import SoftwareTesting from '../assets/Services/SoftwareTesting.svg'
 import ServicesRenderedItems from '../Services/ServicesRenderedItems'
-
 
 const Services = () => {
   const servicesDetail = {
@@ -27,7 +27,7 @@ const Services = () => {
       itemImage: ResponsiveWD,
       itemAltTxt: 'Service-item | Responsive Web Design',
       itemHeader: 'Responsive Web Design',
-      itemContent: 'I Help design Mobile-friendly, world class websites that helps scales your business and helps user experience get better.'
+      itemContent: 'I Help design Mobile-friendly, worldclass websites that helps scales your bussiness and helps user experience get better.'
     },
     itemFour: {
       itemImage: DatabaseDev,
@@ -49,11 +49,11 @@ const Services = () => {
     }
   }
   return (
-    <div className='Services-page container'>
+    <div className='container Services-page'>
         <h1>Services I Render</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus. Phasellus ac nisi augue.</p>
+        <p className='Services-page-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus. Phasellus ac nisi augue.</p>
 
-        <div className='service-rendered-items'>
+        <div className='service-rendered-items-container'>
         <ServicesRenderedItems altText = {servicesDetail.itemOne.itemAltTxt} serviceIcon = {servicesDetail.itemOne.itemImage} serviceItemHeader = {servicesDetail.itemOne.itemHeader} serviceItemContent = {servicesDetail.itemOne.itemContent}/>
         <ServicesRenderedItems altText = {servicesDetail.itemTwo.itemAltTxt} serviceIcon = {servicesDetail.itemTwo.itemImage} serviceItemHeader = {servicesDetail.itemTwo.itemHeader} serviceItemContent = {servicesDetail.itemTwo.itemContent} />
         <ServicesRenderedItems altText = {servicesDetail.itemThree.itemAltTxt} serviceIcon = {servicesDetail.itemThree.itemImage} serviceItemHeader = {servicesDetail.itemThree.itemHeader} serviceItemContent = {servicesDetail.itemThree.itemContent} />

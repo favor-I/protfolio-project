@@ -10,22 +10,27 @@ const MySkills = () => {
             skillImgAlt: 'Php Icon',
             skillIcon: PhpIcon,
             skillTitle: 'PHP',
-            skillBar: '------------'
+            skillBar: '-----------------------------------'
         },
         skillTwo: {
             skillImgAlt: 'Javascript Icon',
             skillIcon: JavaScript,
             skillTitle: 'JAVASCRIPT',
-            skillBar: '------------'
+            skillBar: '-----------------------------------'
         }
     }
     return (
-        <div className='container'>
+        <div className='container skill-item-container'>
             <h2>My Skills</h2>
             <p>Here are a few skills I possess</p>
-            {/* <SkillItem /> */}
-            <SkillItems icon = {SkillDetails.skillOne.skillIcon} iconAlt = {SkillDetails.skillOne.skillImgAlt} skillTitle = {SkillDetails.skillOne.skillTitle} skillBar = {SkillDetails.skillOne.skillBar}  />
-            <SkillItems icon = {SkillDetails.skillTwo.skillIcon} iconAlt = {SkillDetails.skillTwo.skillImgAlt} skillTitle = {SkillDetails.skillTwo.skillTitle} skillBar = {SkillDetails.skillOne.skillBar}  />
+            <div className = 'skill-item-item-container'>
+                <SkillItems icon = {SkillDetails.skillOne.skillIcon} iconAlt = {SkillDetails.skillOne.skillImgAlt} skillTitle = {SkillDetails.skillOne.skillTitle} skillBar = {SkillDetails.skillOne.skillBar}  />
+                <SkillItems icon = {SkillDetails.skillTwo.skillIcon} iconAlt = {SkillDetails.skillTwo.skillImgAlt} skillTitle = {SkillDetails.skillTwo.skillTitle} skillBar = {SkillDetails.skillOne.skillBar}  />
+                <SkillItems icon = {SkillDetails.skillTwo.skillIcon} iconAlt = {SkillDetails.skillTwo.skillImgAlt} skillTitle = {SkillDetails.skillTwo.skillTitle} skillBar = {SkillDetails.skillOne.skillBar}  />
+                <SkillItems icon = {SkillDetails.skillTwo.skillIcon} iconAlt = {SkillDetails.skillTwo.skillImgAlt} skillTitle = {SkillDetails.skillTwo.skillTitle} skillBar = {SkillDetails.skillOne.skillBar}  />
+                <SkillItems icon = {SkillDetails.skillTwo.skillIcon} iconAlt = {SkillDetails.skillTwo.skillImgAlt} skillTitle = {SkillDetails.skillTwo.skillTitle} skillBar = {SkillDetails.skillOne.skillBar}  />
+                <SkillItems icon = {SkillDetails.skillTwo.skillIcon} iconAlt = {SkillDetails.skillTwo.skillImgAlt} skillTitle = {SkillDetails.skillTwo.skillTitle} skillBar = {SkillDetails.skillOne.skillBar}  />
+            </div>
         </div>
     )
 }

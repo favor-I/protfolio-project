@@ -1,11 +1,15 @@
 .nav {
     position: fixed;
     display: flex;
+    /* background: rgba(35, 81, 220, 1); */
+    /* margin: 0px 105.500px; */
+    /* 4.6em; */
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .nav a{
     text-decoration: none;
+    width: 7.1em;
 }
 .nav a h3 {
     width: 186px;

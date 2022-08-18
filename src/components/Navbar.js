@@ -28,7 +28,7 @@ const HeaderLink = ({handleAboutMe, handleServices, handleProjects, handleContac
 const Navbar = ({handleAboutMe, handleServices, handleProjects, handleContactMe}) => {
   return (
     <div className='nav'>
-        <Link to = "/"> <HeaderTitle title={'Favour I'} /> </Link>
+        <Link to = "/"> <HeaderTitle title={'Favour I.'} /> </Link>
         <HeaderLink handleAboutMe={handleAboutMe} handleServices = {handleServices} handleProjects = {handleProjects} handleContactMe = {handleContactMe}/>
         <SocialMediaLinks profileLinkClass={'nav-bar-socials'}/>
     </div>
