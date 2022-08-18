@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Training from '../assets/Services/Training.svg'
 import ITConsultant from '../assets/Services/ITConsultant.svg'
 import ResponsiveWD from '../assets/Services/ResponsiveWD.svg'
@@ -6,6 +7,7 @@ import DatabaseDev from '../assets/Services/DatabaseDev.svg'
 import CustomerSDev from '../assets/Services/CustomerSDev.svg'
 import SoftwareTesting from '../assets/Services/SoftwareTesting.svg'
 import ServicesRenderedItems from '../Services/ServicesRenderedItems'
+
 
 const Services = () => {
   const servicesDetail = {
@@ -25,7 +27,7 @@ const Services = () => {
       itemImage: ResponsiveWD,
       itemAltTxt: 'Service-item | Responsive Web Design',
       itemHeader: 'Responsive Web Design',
-      itemContent: 'I Help design Mobile-friendly, worldclass websites that helps scales your bussiness and helps user experience get better.'
+      itemContent: 'I Help design Mobile-friendly, world class websites that helps scales your business and helps user experience get better.'
     },
     itemFour: {
       itemImage: DatabaseDev,
@@ -47,7 +49,7 @@ const Services = () => {
     }
   }
   return (
-    <div className='Services-page'>
+    <div className='Services-page container'>
         <h1>Services I Render</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus. Phasellus ac nisi augue.</p>
 

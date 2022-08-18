@@ -1,0 +1,44 @@
+.nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav a h3 {
+    width: 186px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: rgb(0,0,0);
+}
+.nav a h3:hover {
+    color: rgba(35, 81, 220, 1);
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 468px;
+}
+
+ul li {
+    color: rgb(0,0,0);
+    /* border: 1px solid red; */
+    margin: 10px 15px 0px 15px;
+}
+ul li:hover {
+    color: rgba(35, 81, 220, 1);;
+    cursor: pointer;
+}
+.nav-bar-socials a img {
+    /* border: 1px solid red; */
+    margin-top: .5em;
+    height: 2.3em;
+    width: 2.3em;
+}

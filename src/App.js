@@ -1,44 +1,27 @@
 import { 
-  BrowserRouter,
+  BrowserRouter as Router,
   Routes,
   Route,
-  Link,
-  Router
 } from "react-router-dom";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css'
 import AboutMe from "./components/pages/AboutMe";
 import ContactMe from "./components/pages/ContactMe";
 import Projects from "./components/pages/Projects";
 import Services from "./components/pages/Services";
+import Home from "./components/pages/Home";
 
 function App() {
   return (
     
-    <>
-      {/* <Router>
-      </Router> */}
-      <Navbar />
-      <AboutMe />
-      <Services />
-      <Projects />
-      <ContactMe />
-      <Footer />
-      
-      {/* <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About Us</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact Us</Link>
-        </li>
-      </ul> */}
-    </>
-    
-    
+    <Router>
+      <Routes>
+        <Route path="/" element = {<Home />} ></Route>
+        <Route path="/about-me" element = {<AboutMe />} ></Route>
+        <Route path="/services" element = {<Services />} ></Route>
+        <Route path="/projects" element = {<Projects />} ></Route>
+        <Route path="/contact-me" element = {<ContactMe />} ></Route>
+      </Routes> 
+    </Router>    
   );
 }
 
