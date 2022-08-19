@@ -108,9 +108,7 @@
     height: 550px;
     padding: 5em;
 }
-.skill-item-container h2 {
-    /* margin-top: 5em; */
-}
+/* .skill-item-container h2 {} */
 .skill-item {
     display: flex;
     flex-direction: row;

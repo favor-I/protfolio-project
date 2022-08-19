@@ -1,0 +1,18 @@
+.contact-me-container{
+    display: flex;
+    flex-direction: row;
+}
+.contact-me-form {
+    background: rgba(28, 65, 176, 1);
+    padding: 4em 0em 0em 4em;
+    height: 423px;
+    width: 550px;
+
+}
+.contact-me-form input{
+    background: rgba(28, 65, 176, 1);
+    margin-top: 1.5em;
+}
+.contact-me-form button{
+    margin-top: 2em;
+}

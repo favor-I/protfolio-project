@@ -1,8 +1,14 @@
 import React from 'react'
+import ContactDetails from '../ContactMe/ContactDetails'
+import ContactForm from '../ContactMe/ContactForm'
+import '../assets/css/contactme.css'
 
 const ContactMe = () => {
   return (
-    <div>ContactMe</div>
+    <div className='contact-me-container container'>
+      <ContactDetails />
+      <ContactForm />
+    </div>
   )
 }
 

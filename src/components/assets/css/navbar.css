@@ -1,17 +1,17 @@
-.nav {
+.navbar {
     position: fixed;
     display: flex;
-    /* background: rgba(35, 81, 220, 1); */
-    /* margin: 0px 105.500px; */
-    /* 4.6em; */
+    background: rgba(251, 252, 254, 1);
+    /* margin: 0px 100px; */
+    /* width: max; */
     justify-content: space-between;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
-.nav a{
+.navbar a{
     text-decoration: none;
     width: 7.1em;
 }
-.nav a h3 {
+.navbar a h3 {
     width: 186px;
     font-family: 'Manrope';
     font-style: normal;
@@ -21,7 +21,10 @@
     letter-spacing: -0.03em;
     color: rgb(0,0,0);
 }
-.nav a h3:hover {
+.navbar a h3:hover {
+    color: rgba(35, 81, 220, 1);
+}
+.navbar a h3 span {
     color: rgba(35, 81, 220, 1);
 }
 ul {
@@ -37,12 +40,12 @@ ul li {
     margin: 10px 15px 0px 15px;
 }
 ul li:hover {
-    color: rgba(35, 81, 220, 1);;
+    color: rgba(35, 81, 220, 1);
     cursor: pointer;
 }
-.nav-bar-socials a img {
+.navbar-bar-socials a img {
     /* border: 1px solid red; */
-    margin-top: .5em;
+    margin-bottom: .5em;
     height: 2.3em;
     width: 2.3em;
 }

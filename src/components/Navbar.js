@@ -5,10 +5,10 @@ import {
 import './assets/css/navbar.css'
 import SocialMediaLinks from './assets/SocialMediaLinks';
 
-const HeaderTitle = ({title}) => {
+const HeaderTitle = ({title, span}) => {
   return (
     <>
-      <h3>{title}</h3>
+      <h3>{title}.<span>{span}</span></h3>
     </>
   );
 }
@@ -27,10 +27,10 @@ const HeaderLink = ({handleAboutMe, handleServices, handleProjects, handleContac
 
 const Navbar = ({handleAboutMe, handleServices, handleProjects, handleContactMe}) => {
   return (
-    <div className='nav'>
-        <Link to = "/"> <HeaderTitle title={'Favour I.'} /> </Link>
+    <div className='navbar'>
+        <Link to = "/"> <HeaderTitle title={'Favour'} span={'io'} /> </Link>
         <HeaderLink handleAboutMe={handleAboutMe} handleServices = {handleServices} handleProjects = {handleProjects} handleContactMe = {handleContactMe}/>
-        <SocialMediaLinks profileLinkClass={'nav-bar-socials'}/>
+        <SocialMediaLinks profileLinkClass={'navbar-bar-socials'}/>
     </div>
   )
 }
