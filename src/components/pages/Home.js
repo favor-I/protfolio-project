@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../Footer'
+import PageFooter from '../PageFooter'
 import Navbar from '../Navbar'
 import AboutMe from './AboutMe'
 import ContactMe from './ContactMe'
@@ -42,7 +42,7 @@ const Home = () => {
             <div ref={contactMeRef}> <ContactMe /> </div>
             {/* <Button newClassName = {'newColor'}/> */}
         </div>
-    <Footer />
+    <PageFooter />
     </>
   )
 }

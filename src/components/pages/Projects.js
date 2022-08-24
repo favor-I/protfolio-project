@@ -5,10 +5,10 @@ import TestimoniesAndRec from '../Projects/TestimoniesAndRec'
 
 const Projects = () => {
   return (
-    <>
+    <div className='projects-bg container'>
     <Milestones />
     <TestimoniesAndRec />
-    </>
+    </div>
   )
 }
 

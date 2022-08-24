@@ -3,9 +3,9 @@
     display: flex;
     background: rgba(251, 252, 254, 1);
     /* margin: 0px 100px; */
-    /* width: max; */
+    width: 1458px;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .navbar a{
     text-decoration: none;
