@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.page-footer {
+    color: aliceblue;
+    background: rgba(7, 16, 44, 1);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.footer-name-period {
+    color: rgba(28, 65, 176, 1);
+}
+.footer-line {
+    display:block;
+    width: 1348px;
+}
